@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Definition Popup Demo</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Inter", "Helvetica", Arial, sans-serif;
+      background: #f5f6fb;
+      height: 100vh;
+    }
+
+    .definition-popup {
+      position: fixed;
+      top: 16px;
+      left: 16px;
+      background: #ffffff;
+      color: #2c2c2c;
+      border-radius: 12px;
+      box-shadow: 0 10px 35px rgba(18, 38, 63, 0.16);
+      padding: 14px 16px 16px;
+      width: 320px;
+      max-width: calc(100% - 32px);
+      box-sizing: border-box;
+      z-index: 9999;
+    }
+
+    .definition-popup__header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 8px;
+    }
+
+    .definition-popup__term {
+      margin: 0;
+      font-size: 18px;
+      font-weight: 700;
+      text-transform: none;
+    }
+
+    .definition-popup__close {
+      background: none;
+      border: none;
+      color: #8c8f93;
+      font-size: 18px;
+      cursor: pointer;
+      padding: 4px;
+      line-height: 1;
+    }
+
+    .definition-popup__close:hover {
+      color: #5a5d61;
+    }
+
+    .definition-popup__definition {
+      margin: 0 0 14px 0;
+      font-size: 15px;
+      line-height: 1.4;
+    }
+
+    .definition-popup__actions {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .definition-popup__cta {
+      background: linear-gradient(135deg, #5e72e4, #5164da);
+      color: #ffffff;
+      border: none;
+      border-radius: 8px;
+      padding: 10px 16px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: 0 4px 12px rgba(94, 114, 228, 0.35);
+      transition: transform 0.05s ease, box-shadow 0.1s ease, filter 0.1s ease;
+    }
+
+    .definition-popup__cta:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 6px 16px rgba(94, 114, 228, 0.4);
+      filter: brightness(1.03);
+    }
+
+    .definition-popup__cta:active {
+      transform: translateY(0);
+      box-shadow: 0 3px 8px rgba(94, 114, 228, 0.25);
+      filter: brightness(0.98);
+    }
+  </style>
+</head>
+<body>
+  <div class="definition-popup" role="dialog" aria-label="Definition">
+    <div class="definition-popup__header">
+      <h1 class="definition-popup__term">predetermined</h1>
+      <button class="definition-popup__close" aria-label="Close">×</button>
+    </div>
+    <p class="definition-popup__definition">To determine or decide in advance.</p>
+    <div class="definition-popup__actions">
+      <button class="definition-popup__cta">Add to Anki</button>
+    </div>
+  </div>
+</body>
+</html>
