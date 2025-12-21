@@ -17,7 +17,7 @@
   color: #111827;
 
   border-radius: 14px;
-  padding: 14px 16px;
+  padding: 12px 14px;
 
   box-shadow: 0 14px 45px rgba(18, 38, 63, 0.16);
 
@@ -44,7 +44,7 @@
   margin: 0;
   padding: 0;
   font-weight: 800;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 1.12;
   letter-spacing: -0.01em;
   color: #111827;
@@ -107,12 +107,12 @@
   cursor: pointer;
   user-select: none;
 
-  padding: 10px 16px;
-  min-width: 140px;
+  padding: 9px 14px;
+  min-width: 130px;
 
   border-radius: 12px;
 
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 700;
   color: #ffffff;
 
