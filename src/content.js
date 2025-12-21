@@ -149,7 +149,7 @@
 
     header.append(wordEl, closeEl);
 
-    const definitionEl = document.createElement('div');
+    const definitionEl = document.createElement('p');
     definitionEl.className = 'vocab-tooltip__definition';
     definitionEl.textContent = definition;
 
