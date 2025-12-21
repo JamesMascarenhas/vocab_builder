@@ -1,8 +1,8 @@
-# Vocab Builder
+<h1>
+  <img src="icon.png" alt="Vocab Builder Icon" width="48" style="vertical-align: middle; margin-right: 12px;" />
+  Vocab Builder
+</h1>
 
-<p align="center">
-  <img src="icon.png" alt="Vocab Builder Icon" width="120" />
-</p>
 
 Vocab Builder is a **minimal, distraction-free Chrome extension** that lets you select a single word on any webpage and add it directly to **Anki** with one click.
 
